@@ -78,7 +78,7 @@ body{
     width: 40px;
     margin-right: 10px;
 }
-.humidity, wind{
+.humidity, .wind{
     font-size: 28px;
     margin-top: -6px;
 }
@@ -93,4 +93,32 @@ body{
     color: red; 
     font-weight: bolder;
     display: none;
+}
+/* ----------- Responsive para pantallas pequeñas ----------- */
+@media (max-width: 600px) {
+
+    .search {
+        flex-direction: between;
+        align-items: flex-end;
+    }
+
+    .search input {
+        margin-right: 10px;
+        margin-bottom: 10vh;
+        width: 70%;
+    }
+    .search button {
+        margin-right: 0;
+        margin-bottom: 10vh;
+        width: 20%;
+    }
+    .col img{
+        width: 30px;
+        margin-right: 10px;
+    }
+    .col p{
+        font-size: 15px;
+    }
+
+
 }
